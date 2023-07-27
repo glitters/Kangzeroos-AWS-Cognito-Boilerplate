@@ -27,7 +27,8 @@ module.exports = {
     extensions: ['', '.js', '.jsx']
   },
   devServer: {
+    host: '192.168.150.88', // Allow remote host to connect
     historyApiFallback: true,
-    contentBase: './'
+    contentBase: './',
   }
 };
